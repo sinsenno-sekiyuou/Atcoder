@@ -1,5 +1,5 @@
-def digitSum():
-    s = str()
+def digitSum(n):
+    s = str(n)
     array = list(map(int,s))
     return sum(array)
 a = 0
@@ -10,7 +10,7 @@ b = digitSum()
 
 if a>b:
     print(a)
-elif a<b:
+elif = a<b:
     print(b)
 else:
     print(a)
